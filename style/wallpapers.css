@@ -126,7 +126,7 @@ header {
 
   body {
   background-image: linear-gradient(to right, #fff, #65adff);
-  min-width: fit-content;
+  width: 100%;
   }
   
   .image1 h3, .image2 h3, .image3 h3 {
