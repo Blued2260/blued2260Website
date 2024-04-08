@@ -131,3 +131,60 @@ a.nav-link{
   display: flex;
   flex-wrap: nowrap;
 }
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+  body {
+    font-family: var(--main-font-family);
+  }
+  
+  header {
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .content,
+  .skills,
+  .wallpapercontent {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-show {
+    display: block;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    background: var(--main-header-background);
+    z-index: 4;
+  }
+
+  a.nav-link,
+  .logo {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-link:hover,
+  .logo:hover {
+    background: none;
+  }
+}
