@@ -123,6 +123,11 @@ header {
     margin: 7px;
     padding: 7px;
   }
+
+  body {
+  background-image: linear-gradient(to right, #fff, #65adff);
+  min-width: fit-content;
+  }
   
   .image1 h3, .image2 h3, .image3 h3 {
     width: auto; /* Allow text to take its natural width */
