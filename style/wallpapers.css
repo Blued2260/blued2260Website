@@ -114,8 +114,8 @@ header {
   background-color: #676767;
 }
 
-/* Media query for desktop screens */
-@media only screen and (max-width: 768px) {
+/* Media query for mobile screens */
+@media only screen and (max-width: 800px) {
   .image1 img, .image2 img, .image3 img{
     height: auto;
     width: 200px;
@@ -125,7 +125,7 @@ header {
   }
 
   body {
-  background-color: #65adff;
+    background-color: #65adff;
   }
   
   .image1 h3, .image2 h3, .image3 h3 {
