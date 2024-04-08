@@ -125,8 +125,7 @@ header {
   }
 
   body {
-  background-image: linear-gradient(to right, #fff, #65adff);
-  width: 100%;
+  background-color: #65adff;
   }
   
   .image1 h3, .image2 h3, .image3 h3 {
