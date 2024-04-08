@@ -13,7 +13,7 @@ html, body {
   height: fit-content;
   font-family: var(--main-font-family);
   color: var(--main-fonts-color);
-  background-color: #65adff;
+  background-color: #d2e7ff;
 }
 
 header {
@@ -127,11 +127,5 @@ header {
   .image1 h3, .image2 h3, .image3 h3 {
     width: auto; /* Allow text to take its natural width */
     padding: 10px; /* Adjust padding */
-  }
-}
-
-@media only screen and (min-width: 801px) {
-  body {
-    background-image: linear-gradient(to right, #fff, #65adff);
   }
 }
